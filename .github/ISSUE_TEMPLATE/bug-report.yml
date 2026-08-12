@@ -1,0 +1,19 @@
+name: バグ報告
+description: ゲームの不具合やバグはこちらから報告してください
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: textarea
+  - attributes:
+      label: 不具合の内容
+      description: どんなバグが起きたか詳しく教えてください。
+      placeholder: 例：ステージ2で壁すり抜けが発生しました
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 発生した端末
+      description: 例（iPhone 11, iPad Airなど）
+      placeholder: iPhone 11
+    validations:
+      required: true
