@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: コントリビューションガイドを読む
+    url: https://github.com/utakeuchigames/リポジトリ名/blob/main/.github/CONTRIBUTING.md
+    about: バグ報告や要望を送る前に、必ずこちらのガイドラインをご確認ください
