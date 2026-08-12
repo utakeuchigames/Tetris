@@ -1,0 +1,12 @@
+name: バグ報告
+description: ゲームの不具合やバグはこちらから報告してください
+title: "[ETC]: "
+labels: ["etc"]
+body:
+  - type: textarea
+    attributes:
+      label: 要望内容
+      description: 伝えたいことを書いてください
+      placeholder: 例：○○の機能を追加して欲しいです
+    validations:
+      required: true
