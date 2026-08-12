@@ -4,7 +4,7 @@ title: "[BUG]: "
 labels: ["bug"]
 body:
   - type: textarea
-  - attributes:
+    attributes:
       label: 不具合の内容
       description: どんなバグが起きたか詳しく教えてください。
       placeholder: 例：ステージ2で壁すり抜けが発生しました
